@@ -1,0 +1,21 @@
+emergefzf - TUI Package Manager for Gentoo Linux
+================================================
+
+Requirements
+------------
+- fzf (app-shells/fzf)
+- equery (app-portage/gentoolkit)
+- portage and POSIX shell and utilities
+
+Usage
+-----
+run
+
+    emergefzf
+
+The script will automatically set up a post-sync hook
+for caching available packages.
+
+After the setup, you can
+Fuzzy-find, preview data and select a package (or multiple)
+and view their metadata, pretend or install them.
